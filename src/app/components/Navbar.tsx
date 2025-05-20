@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { auth, signOut, signIn } from "../../../auth";
-import { redirect } from "next/dist/server/api-utils";
 
 const Navbar = async () => {
   const session = await auth();
@@ -28,7 +27,7 @@ const Navbar = async () => {
                 <button type="submit">Logout</button>
               </form>
 
-              <Link href={`/user/${session?.user.id}`}>
+              <Link href={`/user/${session?.user?.id}`}>
                 <span>{session?.user?.name}</span>
               </Link>
             </>
