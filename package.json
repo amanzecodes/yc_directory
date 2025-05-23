@@ -14,14 +14,20 @@
     "react-dom": "$react-dom"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.89.0",
     "@tailwindcss/typography": "^0.5.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.511.0",
     "next": "15.0.0",
     "next-auth": "^5.0.0-beta.28",
+    "next-sanity": "^9.11.1",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "sanity": "^3.89.0",
+    "styled-components": "^6.1.18",
     "tailwind-merge": "^3.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
